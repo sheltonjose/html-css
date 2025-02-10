@@ -1,0 +1,16 @@
+@charset 'utf-8';
+
+#pai{
+    position: relative;
+}
+#pai img:first-child{
+    position:relative;
+    top: 0;
+    left: 0;
+}
+#pai img:last-child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
